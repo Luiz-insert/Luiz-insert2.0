@@ -10,7 +10,7 @@
 
 - ⚙ Direcionamento de links e algumas funcionalidades propositalmente "quebradas".
 
-- ✅ ON-LINE. (25/08/2022) https://luiz-insert.github.io/Luiz-insert/ 
+- ✅ ON-LINE. (25/03/2023) https://luiz-insert.github.io/Luiz-insert2.0/ 
 
 - 🎨Criação de estilos especificos voltados a diferentes telas concluido (20/06).
 
