@@ -194,16 +194,16 @@ html {
     position: fixed;
     @include definition-color (auto, auto, auto);
     @include definition-size (36px, 36px, auto, 14px auto 14px 2em);
-    border-radius: 50%;
+    border-radius: 30%;
     box-shadow: 0px 1px 1px 1px $primary-color;
     background-image: url('../img/icon1-HAM.svg');
     background-size: cover;
     background-position: center;
     cursor: pointer;
     background-color: $primary-main-color;
-    transition: 0.5s;
+    transition: 0.2s;
             &:hover {
-                transition: 0.5s;
+                transition: 0.2s;
                 border-radius: 10%;
             }
     
@@ -213,16 +213,16 @@ html {
     position: fixed;
     @include definition-color (auto, auto, auto);
     @include definition-size (36px, 36px, auto, 14px auto 14px 2em);
-    box-shadow: 0px 2px 1px 1px $gener-color1;
+    box-shadow: 0px 0px 1px 1px $gener-color1;
     background-image: url('../img/closee.svg');
     background-size: cover;
     background-position: center;
     background-color: $primary-main-color;
     z-index: 10;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.2s;
             &:hover {
-                transition: 0.5s;   
+                transition: 0.2s;   
 
             }
     
@@ -240,16 +240,16 @@ html {
     @include definition-color (auto, auto, auto);
     @include definition-size (36px, 36px, auto, 14px 2em 14px auto);
     right: 0;
-    border-radius: 50%;
+    border-radius: 30%;
     background-image: url('../img/icon2-LMODE.svg');
     background-size: cover;
     background-position: center;
     background-color: $primary-main-color;
     box-shadow: 0px 1px 1px 1px $primary-color;
-    transition: 2s;
+    transition: 0.2s;
     cursor: pointer;
             &:hover {
-                transition: 0.5s;
+                transition: 0.2s;
                 border-radius: 10%;
                 
             }
@@ -259,17 +259,17 @@ html {
     @include definition-color (auto, auto, auto);
     @include definition-size (36px, 36px, auto, 14px 2em 14px auto);
     right: 0;
-    border-radius: 50%;
+    border-radius: 30%;
     
     background-image: url('../img/icon2-DMODE.svg');
     background-size: cover;
     background-position: center;
     background-color: $primary-main-color;
     box-shadow: 0px 1px 1px 1px $primary-color;
-    transition: 2s;
+    transition: 0.2s;
     cursor: pointer;
             &:hover {
-                transition: 0.5s;
+                transition: 0.2s;
                 
             }
 }
@@ -285,7 +285,7 @@ html {
     border-radius: 7px;
     box-shadow: 0px 0px 0 2px $box-shadow-color;
     @include definition-font ('Roboto', 2em, bold);
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .title-welcome-alter {
@@ -298,7 +298,7 @@ html {
     border-radius: 7px;
     box-shadow: 0px 0px 0 0 $box-shadow-color;
     @include definition-font ('Roboto', 2em, bold);
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 }
 
 //CARD1 - PERFIL E DADOS
@@ -310,7 +310,7 @@ html {
     @include definition-size (80%, auto, 3em, 2em auto 2em auto);
     border-radius: 5px;
     box-shadow: 0px 0px 0px 2px $box-shadow-color;
-    transition: background 0.5s ease-out;
+    transition: background 0.2s ease-out;
     
 }
 .main-container-alter {
@@ -319,7 +319,7 @@ html {
     @include definition-size (80%, auto, 3em, 2em auto 2em auto);
     border-radius: 5px;
     box-shadow: 0px 0px 0px 2px $box-shadow-color;
-    transition: background 0.5s ease-out;
+    transition: background 0.2s ease-out;
     
 }
 
@@ -346,7 +346,7 @@ html {
     @include definition-size (60%, 100%, 0, auto 0 auto auto);
     border-radius: 5px;
     box-shadow: 0px 0px 0px 2px $box-shadow-color;
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .data-img-alter {
@@ -355,7 +355,7 @@ html {
     @include definition-size (60%, 100%, 0, auto 0 auto auto);
     border-radius: 5px;
     box-shadow: 0px 0px 0px 2px $box-shadow-color;
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 }
 
 #qr-code-insta {
@@ -363,7 +363,7 @@ html {
     justify-content: center;
     align-items: center;
     @include definition-size (180px, inherit, 0, auto);
-    background-image: url('../img/logoinstaa.png');
+    background-image: url('/img/logoInstaa.png');
     background-size: contain;
     background-repeat: no-repeat;
     

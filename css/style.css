@@ -223,17 +223,17 @@ html {
   height: 36px;
   padding: auto;
   margin: 14px auto 14px 2em;
-  border-radius: 50%;
+  border-radius: 30%;
   box-shadow: 0px 1px 1px 1px #161b21;
   background-image: url("../img/icon1-HAM.svg");
   background-size: cover;
   background-position: center;
   cursor: pointer;
   background-color: #161b21;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .icon1:hover {
-  transition: 0.5s;
+  transition: 0.2s;
   border-radius: 10%;
 }
 
@@ -246,17 +246,17 @@ html {
   height: 36px;
   padding: auto;
   margin: 14px auto 14px 2em;
-  box-shadow: 0px 2px 1px 1px #fff;
+  box-shadow: 0px 0px 1px 1px #fff;
   background-image: url("../img/closee.svg");
   background-size: cover;
   background-position: center;
   background-color: #161b21;
   z-index: 10;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .icon1-close:hover {
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 #div-title {
@@ -284,17 +284,17 @@ html {
   padding: auto;
   margin: 14px 2em 14px auto;
   right: 0;
-  border-radius: 50%;
+  border-radius: 30%;
   background-image: url("../img/icon2-LMODE.svg");
   background-size: cover;
   background-position: center;
   background-color: #161b21;
   box-shadow: 0px 1px 1px 1px #161b21;
-  transition: 2s;
+  transition: 0.2s;
   cursor: pointer;
 }
 .icon2:hover {
-  transition: 0.5s;
+  transition: 0.2s;
   border-radius: 10%;
 }
 
@@ -308,17 +308,17 @@ html {
   padding: auto;
   margin: 14px 2em 14px auto;
   right: 0;
-  border-radius: 50%;
+  border-radius: 30%;
   background-image: url("../img/icon2-DMODE.svg");
   background-size: cover;
   background-position: center;
   background-color: #161b21;
   box-shadow: 0px 1px 1px 1px #161b21;
-  transition: 2s;
+  transition: 0.2s;
   cursor: pointer;
 }
 .icon2-alter:hover {
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .title-welcome {
@@ -338,7 +338,7 @@ html {
   font-family: "Roboto";
   font-size: 2em;
   font-weight: bold;
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .title-welcome-alter {
@@ -358,7 +358,7 @@ html {
   font-family: "Roboto";
   font-size: 2em;
   font-weight: bold;
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .main-container {
@@ -372,7 +372,7 @@ html {
   margin: 2em auto 2em auto;
   border-radius: 5px;
   box-shadow: 0px 0px 0px 2px rgba(77, 77, 77, 0.6980392157);
-  transition: background 0.5s ease-out;
+  transition: background 0.2s ease-out;
 }
 
 .main-container-alter {
@@ -386,7 +386,7 @@ html {
   margin: 2em auto 2em auto;
   border-radius: 5px;
   box-shadow: 0px 0px 0px 2px rgba(77, 77, 77, 0.6980392157);
-  transition: background 0.5s ease-out;
+  transition: background 0.2s ease-out;
 }
 
 #card-profile {
@@ -428,7 +428,7 @@ html {
   margin: auto 0 auto auto;
   border-radius: 5px;
   box-shadow: 0px 0px 0px 2px rgba(77, 77, 77, 0.6980392157);
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .data-img-alter {
@@ -442,7 +442,7 @@ html {
   margin: auto 0 auto auto;
   border-radius: 5px;
   box-shadow: 0px 0px 0px 2px rgba(77, 77, 77, 0.6980392157);
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 #qr-code-insta {
@@ -453,7 +453,7 @@ html {
   height: inherit;
   padding: 0;
   margin: auto;
-  background-image: url("../img/logoinstaa.png");
+  background-image: url("/img/logoInstaa.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
